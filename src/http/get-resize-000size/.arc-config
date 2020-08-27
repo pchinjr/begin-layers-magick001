@@ -1,0 +1,6 @@
+@aws
+runtime nodejs12.x
+# memory 1152
+timeout 30
+# concurrency 1
+layer arn:aws:lambda:us-east-1:175033217214:layer:graphicsmagick:2
