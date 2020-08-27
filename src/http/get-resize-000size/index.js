@@ -15,8 +15,8 @@ exports.handler = async function http(req) {
 
   //simple return of image
   return {
+    statusCode: 201,
     headers: {
-      "statusCode": 200,
       "Content-Type": 'image/png'
     },
     isBase64Encoded: true,
