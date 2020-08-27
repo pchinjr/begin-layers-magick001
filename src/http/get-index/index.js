@@ -5,7 +5,7 @@ let body = `
 <body>
 <h1>Serverless Graphics Magick with Begin</h1>
 <em>Praise Sloth!</em>
-<p><a href='/staging/resize/600'>Click here for a sloth</a></p>
+<p><a href='/resize/600'>Click here for a sloth</a></p>
 <p> Adjust size of image through path parameters, for example '/resize/200' will return the image with max width of 200px.
 </body>
 `
